@@ -1,0 +1,414 @@
+.logo {
+  height: 85px;
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 8px 100px;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+  align-items: center;
+}
+
+.sign-out {
+  margin-left: 40px;
+}
+
+.header-icon {
+  height: 36px !important;
+  width: 36px !important;
+  fill: rgb(112, 122, 131) !important;
+}
+
+.header-icon :hover {
+  fill: black !important;
+  cursor: pointer;
+}
+
+.title-page {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+.categories {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  color: rgb(112, 122, 131);
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.under {
+  transition: background-color 0.4s ease 0s;
+  background-color: rgb(32, 129, 226);
+  bottom: 0%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0px;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-top: 10px;
+}
+
+li:hover {
+  color: rgb(53, 56, 64);
+  cursor: pointer;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.auth-icon-container {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.auth-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: 0px 8px;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.auth-icon > span {
+  margin-top: 6px;
+  color: #fff;
+}
+
+.auth-icon:hover > span {
+  color: rgb(102, 102, 102);
+}
+
+.avatar-nft {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 400px;
+  object-fit: none;
+  object-position: top;
+}
+
+.card-nft-container {
+  /* margin: 0px 5px; */
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+
+.card-nft {
+  border: 1px solid #eee;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-nft:hover {
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+  transition: all 0.1s ease 0s;
+}
+
+.container-nfts {
+  margin: 60px 40px;
+  color: rgb(112, 122, 131);
+}
+
+.avatar-user {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bc3748;
+  border: 3px solid #fff;
+  font-size: 30px;
+  color: #fff;
+}
+
+.avatar-user-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.name-nft-container {
+  text-align: center;
+  font-weight: 600;
+}
+
+.name-user-container {
+  text-align: center;
+}
+
+.name-user {
+  color: rgb(32, 129, 226);
+  cursor: pointer;
+}
+
+.description-nft-container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.coin {
+  height: 40px;
+}
+
+.value-nft-container {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 15px;
+  color: rgb(255 218 95);
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.currentDetail-container {
+  margin-top: 40px;
+  display: flex;
+  background-color: #fdfdfd;
+  color: rgb(112, 122, 131);
+  font-size: 14px;
+  justify-content: center;
+}
+
+.image-nft {
+  border: 8px solid #eee;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.detail-nft {
+  margin-top: 40px;
+}
+
+.detail-name-nft {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(53, 56, 64);
+}
+
+.detail-category-nft {
+  display: inline-block;
+  margin-bottom: 60px;
+  border: 1px solid #eee;
+  padding: 4px 10px;
+  background-color: hsl(205deg 46% 92%);
+  color: hsl(205deg 47% 42%);
+  font-size: 12px;
+  box-shadow: rgb(4 17 29 / 25%) 0px 0px 2px 0px;
+  cursor: pointer;
+}
+
+.detail-category-nft:hover {
+  background-color: hsl(205deg 53% 88%);
+  color: hsl(205deg 46% 32%);
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.detail-owner-nft {
+  color: rgb(32, 129, 226);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.detail-createdBy-nft {
+  color: rgb(32, 129, 226);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.detail-common-nft {
+  margin: 20px 0px;
+}
+
+.detail-description-nft-container {
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.detail-description-nft-title {
+  padding: 15px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.detail-description-nft-title span {
+  margin-left: 15px;
+}
+
+.detail-description-nft-content {
+  padding: 15px 15px;
+}
+
+.saling {
+  font-size: 16px;
+  color: red;
+  font-weight: 700;
+}
+
+.not-sale {
+  font-size: 16px;
+  color: #545454;
+  font-weight: 700;
+}
+
+.detail-value-nft > span:nth-child(2) {
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 12px;
+  margin-left: 10px;
+}
+
+.detail-value-nft {
+  display: flex;
+  align-items: center;
+}
+
+.detail-createdAt-nft > span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.transactions-container {
+  margin-top: 70px;
+  background-color: #fdfdfd;
+  color: rgb(112, 122, 131);
+  font-size: 14px;
+  border-top: 1px solid #eee;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+.transactions-container-title {
+  text-align: center;
+  width: 100%;
+}
+
+.same-category {
+  text-align: center;
+  padding: 25px 0px;
+  border-top: 1px solid #eee;
+}
+
+.profile-banner {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.profile-avatar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.profile-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profile-name-tabs {
+  margin-top: 60px;
+}
+
+.profile-content {
+  margin-top: 30px;
+}
+
+.profile-content th,
+.profile-content td {
+  padding: 15px !important;
+}
+
+label {
+  cursor: pointer;
+  /* Style as you please, it will become the visible UI component. */
+}
+
+#upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.avatar-profile {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+  width: 120px;
+  height: 120px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bc3748;
+}
+
+.profile-banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.baner-profile {
+  position: absolute;
+  font-size: 80px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

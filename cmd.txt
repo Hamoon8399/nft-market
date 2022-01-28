@@ -1,0 +1,21 @@
+near call dev-1643189852054-30850838711905 getNfts '{}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 mintNft '{"createdAt":"12314123", "item":{"name":"conan","url":"https://i.pinimg.com/736x/05/29/23/05292358f9db5e591ed592971060c39f.jpg", "description":"ahaha", "category":"Conan"}, "value":"12312312", "token":"123FEADF"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 getExchanges '{}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 getByOwner '{"userId":"sakura1999tb.testnet"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 getByCreatedBy '{"createdBy":"sakura1999tb.testnet"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 updateSaleNFT '{"token":"123FEAD", "sale":"1"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 updateValueNFT '{"token":"123FEAD", "value":"6666"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 buyNFT '{"token":"123FEAD", "timeStamp":"5842342838"}' --account-id sakura1999tb.testnet --gas=300000000000000 --deposit=20
+
+near call dev-1643189852054-30850838711905 getTransactions '{}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 getByUser '{"userId":"sakura1999tb.testnet"}' --account-id sakura1999tb.testnet --gas=300000000000000
+
+near call dev-1643189852054-30850838711905 getByToken '{"token":"123FEAD"}' --account-id sakura1999tb.testnet --gas=300000000000000
